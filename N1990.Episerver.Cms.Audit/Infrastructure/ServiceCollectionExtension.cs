@@ -1,4 +1,4 @@
-﻿using N1990.Episerver.Cms.Audit.Business;
+﻿using Solv.Optimizely.Cms.Audit.Business;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
@@ -6,7 +6,7 @@ namespace Microsoft.Extensions.DependencyInjection
     {
         public static IServiceCollection AddAuditServices(this IServiceCollection services)
         {
-            services.AddTransient <ICmsAuditor, CmsAuditor> ();
+            services.AddTransient<ICmsAuditor, CmsAuditor> ();
 
             return services;
         }

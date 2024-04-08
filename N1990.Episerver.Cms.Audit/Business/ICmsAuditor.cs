@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using EPiServer.Scheduler;
 using EPiServer.Web;
-using N1990.Episerver.Cms.Audit.Models;
+using Solv.Optimizely.Cms.Audit.Models;
 
-namespace N1990.Episerver.Cms.Audit.Business
+namespace Solv.Optimizely.Cms.Audit.Business
 {
     public interface ICmsAuditor
     {

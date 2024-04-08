@@ -1,16 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N1990.Episerver.Cms.Audit", "N1990.Episerver.Cms.Audit\N1990.Episerver.Cms.Audit.csproj", "{D1134030-85B2-437F-B531-842ABFBBA796}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{E088F038-7A9A-45B1-AF25-0C24F7D5189A}"
-	ProjectSection(SolutionItems) = preProject
-		nuget\N1990.Episerver.Cms.Audit.1.0.0.nupkg = nuget\N1990.Episerver.Cms.Audit.1.0.0.nupkg
-		nuget\N1990.Episerver.Cms.Audit.nuspec = nuget\N1990.Episerver.Cms.Audit.nuspec
-		nuget\NuGet.exe = nuget\NuGet.exe
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solv.Optimizely.Cms.Audit", "N1990.Episerver.Cms.Audit\Solv.Optimizely.Cms.Audit.csproj", "{D1134030-85B2-437F-B531-842ABFBBA796}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

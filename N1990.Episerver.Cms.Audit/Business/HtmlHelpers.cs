@@ -1,9 +1,9 @@
 ﻿using EPiServer.Web.Routing;
 using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using N1990.Episerver.Cms.Audit.Models;
+using Solv.Optimizely.Cms.Audit.Models;
 
-namespace N1990.Episerver.Cms.Audit.Business
+namespace Solv.Optimizely.Cms.Audit.Business
 {
     public static class HtmlHelpers
     {

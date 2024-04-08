@@ -3,11 +3,11 @@ using EPiServer.PlugIn;
 using EPiServer.Scheduler;
 using EPiServer.ServiceLocation;
 using System.Linq;
-using N1990.Episerver.Cms.Audit.Models;
+using Solv.Optimizely.Cms.Audit.Models;
 using EPiServer.DataAbstraction;
 using Newtonsoft.Json;
 
-namespace N1990.Episerver.Cms.Audit.Business
+namespace Solv.Optimizely.Cms.Audit.Business
 {
     [ScheduledPlugIn(DisplayName = "Page Type Audit Job")]
     public class PageTypeAuditScheduledJob : ScheduledJobBase

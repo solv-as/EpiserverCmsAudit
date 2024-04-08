@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using EPiServer.Web;
 
-namespace N1990.Episerver.Cms.Audit.Models
+namespace Solv.Optimizely.Cms.Audit.Models
 {
 	public class SiteAudit
 	{

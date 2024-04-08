@@ -1,10 +1,10 @@
 using EPiServer.DataAbstraction;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using N1990.Episerver.Cms.Audit.Business;
-using N1990.Episerver.Cms.Audit.Models;
+using Solv.Optimizely.Cms.Audit.Business;
+using Solv.Optimizely.Cms.Audit.Models;
 
-namespace N1990.Episerver.Cms.Audit.Controllers
+namespace Solv.Optimizely.Cms.Audit.Controllers
 {
     [Authorize(Roles = "AuditAdmins")]
     public class BlockTypesController : Controller

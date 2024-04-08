@@ -9,10 +9,10 @@ using EPiServer.Personalization.VisitorGroups;
 using EPiServer.Scheduler;
 using EPiServer.ServiceLocation;
 using EPiServer.Web;
-using N1990.Episerver.Cms.Audit.Models;
+using Solv.Optimizely.Cms.Audit.Models;
 using Newtonsoft.Json;
 
-namespace N1990.Episerver.Cms.Audit.Business
+namespace Solv.Optimizely.Cms.Audit.Business
 {
     public class CmsAuditor : ICmsAuditor
     {

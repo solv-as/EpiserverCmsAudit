@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using EPiServer.Core;
 
-namespace N1990.Episerver.Cms.Audit.Models
+namespace Solv.Optimizely.Cms.Audit.Models
 {
 	public class ContentTypeAudit
 	{

@@ -1,7 +1,7 @@
-@using N1990.Episerver.Cms.Audit.Business
-@model N1990.Episerver.Cms.Audit.Models.CmsAuditPage
+@using Solv.Optimizely.Cms.Audit.Business
+@model Solv.Optimizely.Cms.Audit.Models.CmsAuditPage
 @{
-    Layout = "../Shared/_layout.cshtml";
+	Layout = "../Shared/_AuditLayout.cshtml";
 }
 
 <section class="site-list" id="site-audit-section">
@@ -12,7 +12,7 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-3">
-			<ul class="nav nav-pills nav-stacked" role="tablist" id="site-tabs">
+			<ul class="nav nav-pills nav-stacked flex-wrap" role="tablist" id="site-tabs">
 				@for (var i = 0; i < Model.Sites.Count; i++)
 				{
 					<li role="presentation" class="@(i == 0 ? "active" : "")">

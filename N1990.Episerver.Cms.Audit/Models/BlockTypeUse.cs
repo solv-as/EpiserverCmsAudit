@@ -3,7 +3,7 @@ using EPiServer.Data.Dynamic;
 using System;
 using System.Linq;
 
-namespace N1990.Episerver.Cms.Audit.Models
+namespace Solv.Optimizely.Cms.Audit.Models
 {
     [EPiServerDataStore(AutomaticallyCreateStore = true, AutomaticallyRemapStore = true)]
     public class BlockTypeUse : IDynamicData
